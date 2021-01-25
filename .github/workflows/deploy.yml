@@ -12,6 +12,7 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
+      - uses: sfdx-actions/setup-sfdx@v1
         with:
           sfdx-auth-url: ${{ secrets.AUTH_SECRET }}
       - name: sfdx-test-run
