@@ -4,6 +4,7 @@ public with sharing class OpportunityTriggerHandler {
     
     }
     
+    // test
     public void autoClose(List<Opportunity> oppList){
         
     }
