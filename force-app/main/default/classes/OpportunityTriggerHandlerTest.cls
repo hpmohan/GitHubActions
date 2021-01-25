@@ -1,6 +1,7 @@
 @isTest 
 public class OpportunityTriggerHandlerTest {
     
+    //constructor coverage
     static testMethod void insertNewOpportunity() {
         OpportunityTriggerHandler obj = new OpportunityTriggerHandler();
     }
