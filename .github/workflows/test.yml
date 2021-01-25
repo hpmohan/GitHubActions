@@ -1,4 +1,4 @@
-name: SFDX Test Run on Pull Request
+name: Run test on PullRequest
 
 on: 
   pull_request:
