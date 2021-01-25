@@ -2,7 +2,8 @@ name: Deploy on Push
 
 on: 
   push:
-    branches: [ Dev ]
+    branches:
+      - Dev
 
 jobs:
   test:
