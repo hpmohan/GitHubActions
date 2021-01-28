@@ -4,7 +4,7 @@ public with sharing class OpportunityTriggerHandler {
     
     }
     
-    // test
+    // autoClose comment updated
     public void autoClose(List<Opportunity> oppList){
         if(oppList.size() == 0){
             
